@@ -1,0 +1,54 @@
+# ========================================
+# Minecraft Forge Modding Project .gitignore
+# ========================================
+
+# Ignore Minecraft saves and runtime data
+/saves/
+/crash-reports/
+/logs/
+/backups/
+/.versions/
+/run/                 # Forge run folder for temporary builds
+/*.log                # Any log files
+*.tmp
+*.bak
+*.swp
+
+# Ignore Gradle / build artifacts
+/build/
+/out/
+/.gradle/
+/gradle/wrapper/gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
+*.class
+*.classpath
+*.project
+*.settings/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Keep these for modding
+# ========================================
+
+# Mods and mod configs
+!mods/
+!config/
+!scripts/
+!resourcepacks/
+
+# Include your source code and assets
+!src/
+!assets/
+!data/
+!pack.mcmeta
+!mods.toml
+!build.gradle
+!settings.gradle
